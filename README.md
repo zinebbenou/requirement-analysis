@@ -32,6 +32,43 @@ The purpose of this repository is to:
    - Enables effective testing and validation
    - Ensures all critical features and requirements are addressed
 
+## Key Activities in Requirement Analysis
+
+### 1. Requirement Gathering
+- Collecting initial requirements from stakeholders
+- Conducting interviews and surveys
+- Organizing workshops and brainstorming sessions
+- Reviewing existing documentation and systems
+- Observing current work processes
+
+### 2. Requirement Elicitation
+- Analyzing gathered information in detail
+- Identifying hidden requirements
+- Clarifying ambiguous requirements
+- Using techniques like prototyping and user stories
+- Conducting follow-up sessions with stakeholders
+
+### 3. Requirement Documentation
+- Creating formal requirement specifications
+- Writing user stories and use cases
+- Developing requirement traceability matrices
+- Maintaining requirement change history
+- Creating requirement management plans
+
+### 4. Requirement Analysis and Modeling
+- Creating visual models (UML diagrams, flowcharts)
+- Identifying relationships between requirements
+- Categorizing requirements (functional/non-functional)
+- Prioritizing requirements
+- Analyzing feasibility and constraints
+
+### 5. Requirement Validation
+- Reviewing requirements with stakeholders
+- Verifying requirement consistency and completeness
+- Conducting requirement walkthroughs
+- Validating against project goals and constraints
+- Getting formal sign-off from stakeholders
+
 ## Contents
 - Documentation templates
 - Best practices guidelines
