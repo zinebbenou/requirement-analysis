@@ -147,6 +147,91 @@ Functional requirements define what the system should do - the specific features
 - System must support API integration for partners
 - System must integrate with email and SMS services
 
+## Use Case Diagrams
+
+### Overview
+Use Case Diagrams are fundamental tools in requirement analysis that visually represent how users (actors) interact with a system. They help stakeholders understand the system's functionality from an external perspective and clarify the relationships between different use cases and actors.
+
+### Benefits of Use Case Diagrams
+- Provide a high-level view of the system
+- Identify external actors and their interactions
+- Clarify system boundaries
+- Help in understanding user requirements
+- Facilitate communication with stakeholders
+- Aid in project scope definition
+
+### Hotel Booking System Use Case Diagram
+
+![Hotel Booking System Use Case Diagram](alx-booking-uc.png)
+
+### Actors in the System
+1. **Customer**
+   - Regular users who search and book hotels
+   - Can manage their bookings and profile
+   - Interacts with payment system
+   - Can write and view reviews
+
+2. **Hotel Manager**
+   - Manages hotel listings and rooms
+   - Handles booking requests
+   - Updates availability and pricing
+   - Views and responds to reviews
+
+3. **System Administrator**
+   - Manages system configuration
+   - Handles user management
+   - Monitors system performance
+   - Updates system settings
+
+4. **Payment System**
+   - External actor handling payment processing
+   - Processes transactions
+   - Handles refunds
+   - Maintains transaction history
+
+### Key Use Cases
+1. **User Management**
+   - Register Account
+   - Login/Logout
+   - Manage Profile
+   - Reset Password
+   - Update Personal Information
+
+2. **Hotel Management**
+   - List Property
+   - Update Hotel Information
+   - Manage Room Availability
+   - Set Pricing
+   - View Bookings
+   - Manage Listings
+
+3. **Booking Process**
+   - Search Hotels
+   - View Hotel Details
+   - Make Reservation
+   - Cancel Booking
+   - Process Payment
+   - Generate Booking Confirmation
+   - View Transaction History
+
+4. **System Administration**
+   - Configure System
+   - Update Settings
+   - Manage Users
+   - Monitor Performance
+   - Generate Reports
+
+5. **Review System**
+   - Write Review
+   - Rate Hotel
+   - View Reviews
+   - Manage Review Responses
+
+6. **Payment Processing**
+   - Process Payments
+   - Handle Refunds
+   - View Transaction History
+   - Generate Payment Reports
 
 ## Contents
 - Documentation templates
