@@ -233,6 +233,62 @@ Use Case Diagrams are fundamental tools in requirement analysis that visually re
    - View Transaction History
    - Generate Payment Reports
 
+## Acceptance Criteria
+
+### Importance in Requirement Analysis
+Acceptance Criteria are specific conditions that a system must meet to be considered complete and acceptable to stakeholders. They are critical in requirement analysis because they:
+
+- Define clear, measurable conditions for project success
+- Establish shared understanding between stakeholders and development team
+- Provide basis for testing and validation
+- Help prevent scope creep and feature ambiguity
+- Enable objective assessment of project completion
+
+### Example: Hotel Booking Checkout Feature
+
+#### User Story
+"As a customer, I want to complete my hotel booking checkout process so that I can finalize my reservation and make payment."
+
+#### Acceptance Criteria
+
+1. **Payment Processing**
+   - System must accept and validate credit card information
+   - Payment amount must match booking total
+   - System must process payment securely
+   - Booking confirmation must be generated after successful payment
+   - Failed payments must show clear error messages
+
+2. **Booking Confirmation**
+   - Confirmation page displays booking details including:
+     - Hotel name and address
+     - Check-in/check-out dates
+     - Room type and number of guests
+     - Total amount paid
+     - Booking reference number
+   - Confirmation email sent within 2 minutes
+   - Booking appears in user's reservation history
+
+3. **Error Handling**
+   - System prevents double booking
+   - Invalid payment information triggers error message
+   - Session timeout after 15 minutes of inactivity
+   - Network errors display user-friendly messages
+   - Option to retry payment if transaction fails
+
+4. **User Experience**
+   - Checkout process completable in under 5 steps
+   - All required fields clearly marked
+   - Loading states shown during processing
+   - Mobile-responsive design
+   - Clear progress indicator throughout checkout
+
+5. **Security Requirements**
+   - SSL encryption for payment processing
+   - No credit card details stored on server
+   - Secure session management
+   - PCI compliance maintained
+   - Protection against common web vulnerabilities
+
 ## Contents
 - Documentation templates
 - Best practices guidelines
