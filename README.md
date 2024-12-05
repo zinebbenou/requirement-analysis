@@ -69,6 +69,85 @@ The purpose of this repository is to:
 - Validating against project goals and constraints
 - Getting formal sign-off from stakeholders
 
+## Types of Requirements
+
+### Functional Requirements
+Functional requirements define what the system should do - the specific features and functionalities.
+
+#### User Management
+- Users must be able to register and create accounts
+- Users must be able to log in securely
+- Users must be able to manage their profiles
+- Hotel managers must have separate login portals
+
+#### Hotel Management
+- Hotel managers must be able to list their properties
+- Managers must be able to update hotel information
+- Managers must be able to manage room availability
+- Managers must be able to set pricing and special offers
+- Managers must be able to view booking statistics
+
+#### Search and Booking
+- Users must be able to search hotels by location
+- Users must be able to filter hotels by price, ratings, and amenities
+- Users must be able to view hotel details and photos
+- Users must be able to book rooms for specific dates
+- System must prevent double booking of rooms
+- Users must receive booking confirmations
+
+#### Payment Processing
+- System must support multiple payment methods
+- System must process payments securely
+- System must generate invoices
+- System must handle refunds when applicable
+
+#### Notifications
+- System must send booking confirmations to users
+- System must notify hotel managers of new bookings
+- System must send reminder notifications for upcoming stays
+- System must notify users about booking changes
+
+### Non-functional Requirements
+
+#### Performance
+- System must handle 1000+ concurrent users
+- Search results must load within 2 seconds
+- Payment processing must complete within 5 seconds
+- System must be available 99.9% of the time
+- Database must support 10,000+ hotel listings
+
+#### Security
+- All user data must be encrypted
+- Payment information must be processed using secure protocols
+- System must implement two-factor authentication
+- System must maintain audit logs of all transactions
+- Regular security updates must be implemented
+
+#### Scalability
+- System must scale horizontally to handle increasing load
+- Database must handle growing data volume efficiently
+- CDN must optimize content delivery across different regions
+
+#### Usability
+- Interface must be responsive across all devices
+- System must support multiple languages
+- Search interface must be intuitive
+- Booking process must be completable in less than 5 steps
+- System must provide clear error messages
+
+#### Data Management
+- System must backup data every 24 hours
+- System must maintain data consistency across all services
+- System must comply with data protection regulations
+- System must maintain booking history for at least 2 years
+
+#### Integration
+- System must integrate with third-party payment services
+- System must integrate with external mapping services
+- System must support API integration for partners
+- System must integrate with email and SMS services
+
+
 ## Contents
 - Documentation templates
 - Best practices guidelines
